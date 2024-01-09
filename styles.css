@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 0.75rem;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+li > svg {
+    fill: #8385A9;
+}
+
+li > svg:hover {
+    fill:hsl(345, 95%, 68%);
+}
+
+.container {
+    height: 100vh;
+    background-color: hsl(236, 21%, 26%);
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.hero {
+    height: 70%;
+    display: grid;
+    grid-template-areas: 'hero';
+}
+
+.hero > * {
+    grid-area: hero;
+}
+
+.hero > img {
+    height: 100%;
+}
+
+.hero-text {
+    margin-block: auto;
+}
+
+.title {
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    letter-spacing: 0.2rem;
+    margin-block-end: 1.5rem;
+}
+
+.timer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+
+.social-icons {
+    height: 30%;
+    display: grid;
+    grid-template-areas: 'social-icons';
+}
+
+.social-icons > img {
+    height: 100%;
+}
+
+.social-icons > * {
+    grid-area: social-icon;
+}
+
+.social-icons > ul {
+    margin-block-start: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    margin: 0.75rem;
+}
+
+.card h1{
+    text-align: center;
+    color: hsl(345, 95%, 68%);
+    padding: 0.5rem;
+}
+
+.card p {
+    text-align: center;
+    color: hsl(237, 18%, 59%);
+    font-size: 0.4rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+@media screen and (width >= 426px) {
+    .hero {
+        align-content: center;
+        justify-items: center;
+    }
+
+    .title {
+        letter-spacing: 0.5rem;
+    }
+
+    .card p {
+        letter-spacing: .3rem;
+    }
+}
