@@ -1,6 +1,9 @@
 # Frontend Mentor - Launch countdown timer solution
 
-This is a solution to the [Launch countdown timer challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the
+[Launch countdown timer challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-).
+Frontend Mentor challenges help you improve your coding
+skills by building realistic projects.
 
 ## Table of contents
 
@@ -18,8 +21,10 @@ Completed the QR code component Frontend Mentor challenge
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:
+  [Launch-countdown-timer](https://github.com/yash-kewlani/Launch-countdown-timer)
+- Live Site URL:
+  [Launch-countdown-timer](https://yash-kewlani.github.io/Launch-countdown-timer/)
 
 ## My process
 
@@ -37,5 +42,7 @@ Learned about media queries and CSS grid
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yash-kewlani](https://www.frontendmentor.io/profile/yash-kewlani)
+- Website -
+  [Launch-countdown-timer](https://yash-kewlani.github.io/Launch-countdown-timer/)
+- Frontend Mentor -
+  [@yash-kewlani](https://www.frontendmentor.io/profile/yash-kewlani)
